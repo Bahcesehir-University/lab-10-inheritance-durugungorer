@@ -179,7 +179,7 @@ public:
 // TODO: Implement describe()
        std::string Truck::describe() const{
        std::ostringstream oss;
-       oss << "Truck: " << make << "("<< year << "), " << payloadTons << "tons,fuel: " <<
+       oss << "Truck: " << make << "("<< year << "), " << "payload: " << payloadTons << "fuel: " <<
         fuelLevel << "%";       
         return oss.str();
         }
